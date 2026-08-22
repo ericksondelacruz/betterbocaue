@@ -27,9 +27,20 @@ export interface CategoryIndexData {
   pages: Subcategory[];
 }
 
+export interface Hotline {
+  name: string;
+  numbers: string[];
+}
+
+export interface EmergencyHotlinesData {
+  hotlines: Hotline[];
+}
+
+
 // Import the YAML file as raw text
 import servicesYamlContent from './services.yaml?raw';
 import governmentActivitiesYamlContent from './government.yaml?raw';
+import emergencyHotlinesYamlContent from '../../content/config/emergency-hotlines.yaml?raw';
 
 // Import all category index files statically
 import healthServicesIndex from '../../content/services/health-services/index.yaml?raw';
@@ -69,6 +80,11 @@ export const serviceCategories: CategoryData = yaml.load(
 export const governmentCategories: CategoryData = yaml.load(
   governmentActivitiesYamlContent
 ) as CategoryData;
+
+export const emergencyHotlines: EmergencyHotlinesData = yaml.load(
+  emergencyHotlinesYamlContent
+) as EmergencyHotlinesData;
+
 
 export interface CategoryIndex {
   title?: string;
