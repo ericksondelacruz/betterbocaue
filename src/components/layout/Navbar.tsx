@@ -8,6 +8,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
+import { emergencyHotlines } from '../../data/yamlLoader';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -16,7 +17,15 @@ import { LANGUAGES } from '../../i18n/languages';
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [copiedNumber, setCopiedNumber] = useState<string | null>(null);
   const { t, i18n } = useTranslation('common');
+
+  const copyNumber = (number: string) => {
+    navigator.clipboard.writeText(number).then(() => {
+      setCopiedNumber(number);
+      setTimeout(() => setCopiedNumber(null), 2000);
+    });
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -40,53 +49,36 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
-      {/* Top bar with language switcher and additional links */}
-      <div className="border-b border-gray-200">
-        <div className="container mx-auto px-4 flex justify-end items-center h-10">
-          <div className="flex items-center space-x-4">
-            <a
-              href="https://bettergov.ph/join-us"
-              className="text-xs text-primary-600 hover:text-primary-700 font-semibold transition-colors"
-              target="_blank"
-            >
-              🚀 Join Us
-            </a>
-            <a
-              href="https://bettergov.ph/about"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank"
-            >
-              About BetterGov
-            </a>
-            <a
-              href="https://www.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank"
-            >
-              Official Gov.ph
-            </a>
-
-            <a
-              href="https://bettergov.ph/philippines/hotlines"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Hotlines
-            </a>
-            <div className="hidden md:block">
-              <select
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
+      {/* Emergency Hotlines ticker */}
+      <div className="bg-red-600 flex items-stretch overflow-hidden">
+        <div className="flex-shrink-0 bg-red-800 px-4 flex items-center">
+          <span className="text-xs font-semibold text-white uppercase tracking-wide whitespace-nowrap">
+            Emergency Hotlines
+          </span>
+        </div>
+        <div className="marquee-container overflow-hidden flex-1 py-3">
+          <div className="marquee-track flex animate-marquee whitespace-nowrap w-max">
+            {[0, 1].map(copy => (
+              <span key={copy} className="flex items-center gap-8 pr-16">
+                {emergencyHotlines.hotlines.map(hotline => (
+                  <span key={hotline.name} className="text-xs text-white">
+                    <span className="font-semibold">{hotline.name}:</span>{' '}
+                    {hotline.numbers.map((number, idx) => (
+                      <React.Fragment key={number}>
+                        <button
+                          onClick={() => copyNumber(number)}
+                          className="hover:underline cursor-pointer"
+                          title="Click to copy"
+                        >
+                          {copiedNumber === number ? '✓ Copied!' : number}
+                        </button>
+                        {idx < hotline.numbers.length - 1 && ' • '}
+                      </React.Fragment>
+                    ))}
+                  </span>
                 ))}
-              </select>
-            </div>
+              </span>
+            ))}
           </div>
         </div>
       </div>

@@ -1,0 +1,15 @@
+hotlines:
+  - name: MDRRMO
+    numbers:
+      - '0936 330 9020'
+  - name: Police
+    numbers:
+      - '0998 598 5376'
+      - '(044) 309-3314'
+  - name: BFP
+    numbers:
+      - '0947 732 5198'
+      - '0936 226 1093'
+  - name: Municipal Health Office
+    numbers:
+      - '(044) 815-6940'
