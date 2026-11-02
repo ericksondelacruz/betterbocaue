@@ -1,14 +1,12 @@
 # BetterBocaue (Flood Control Capital of the Philippines)
 
-A civic-tech initiative from **Flood Control Capital of the Philippines** providing transparent access to municipal services, programs, and public funds of LGU Bocaue, Bulacan, Philippines.
-
+A civic-tech initiative for Bocaue, Bulacan — the **Flood Control Capital of the Philippines** — providing transparent access to municipal services, programs, and public funds of LGU Bocaue, Bulacan, Philippines.
 
 ## About
 
-BetterBocaue.org is a volunteer-driven, open-source project that empowers Bocaueño with easy access to local government information. The platform aggregates public data from official government portals and presents it in a user-friendly, accessible format.
+BetterBocaue.org is a volunteer-driven, open-source project that empowers Bocaueños with easy access to local government information. The platform aggregates public data from official government portals and presents it in a user-friendly, accessible format.
 
 **Cost to the People of Bocaue = ₱0**
-
 
 ## Features
 
@@ -40,7 +38,7 @@ Everything about the LGU itself, in one place:
 
 ### Built for Everyone
 
-- **Multilingual** — available in Englis and Filipino
+- **Multilingual** — available in English and Filipino
 - **Mobile-friendly & accessible** — works well on any phone and is designed for all residents
 
 ## Quick Start
@@ -68,13 +66,13 @@ Everything about the LGU itself, in one place:
    npm install
    ```
 
-4. **Start development server**
+3. **Start development server**
 
    ```bash
    npm run dev
    ```
 
-5. **Open in browser**
+4. **Open in browser**
    - Development `http://localhost:5173`
    - Production preview `http://localhost:4173`
 

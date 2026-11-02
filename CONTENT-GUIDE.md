@@ -221,14 +221,14 @@ Use clear, descriptive headings:
 
 ### Content Types
 
-#### 0. Department/Office Pages
+#### 1. Department/Office Pages
 
 - Office mandate and legal basis
 - Key officials and contact info
 - Programs and services offered
 - Links to relevant service pages
 
-#### 1. Service Information
+#### 2. Service Information
 
 - What the service is
 - Who can use it
@@ -236,7 +236,7 @@ Use clear, descriptive headings:
 - What it costs
 - How long it takes
 
-#### 2. Step-by-Step Guides
+#### 3. Step-by-Step Guides
 
 - Clear, numbered steps
 - What to bring to each step
@@ -244,7 +244,7 @@ Use clear, descriptive headings:
 - Who to contact
 - What happens next
 
-#### 3. Contact Information
+#### 4. Contact Information
 
 - Office name and location
 - Complete address with landmarks
@@ -253,7 +253,7 @@ Use clear, descriptive headings:
 - Operating hours
 - Social media (if official)
 
-#### 4. Requirements Lists
+#### 5. Requirements Lists
 
 - Documents needed
 - Eligibility criteria
