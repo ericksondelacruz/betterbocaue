@@ -1,65 +1,87 @@
-# How to Set Up a Business Partnership
+# Apply for a Barangay Business Clearance and Mayor's Business Permit — Bocaue
 
-## Step 1: Register with SEC
+Starting a new business in Bocaue? You need a **Mayor's Business Permit** from the **Business Permit and Licensing Office (BPLO)** of the Municipality of Bocaue. Before applying, you must first register your business name or entity and get a **Barangay Business Clearance** from the barangay where your business is located.
 
-**Prepare documents:**
+This guide follows the BPLO's official list of documents required for new business applications, issued under **DILG-DTI-DICT Joint Memorandum Circular (JMC) No. 2016-01**, the national standard for processing business permits.
 
-- Partnership name (check via [SEC eSPARC](https://espac.sec.gov.ph/))
-- Notarized Articles of Partnership
-- IDs/TINs of partners, office address, capital structure
+---
 
-**File online** through [SEC eSPARC](https://espac.sec.gov.ph/) and pay fees.
+## What You Need to Know
 
-**Output:** SEC Certificate of Recording + Approved Business Name
+| Information                  | Details                                                                                 |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| **Where**                    | Business Permit and Licensing Office (BPLO), Municipality of Bocaue                     |
+| **Who applies**              | Single proprietors, corporations, and cooperatives opening a new business in Bocaue     |
+| **Requirements**             | Proof of registration, barangay clearance, and location documents (see checklist below) |
+| **Copies**                   | Prepare **two (2) photocopies** of every required document                              |
+| **Cost and processing time** | Ask the BPLO; fees depend on your type of business and capitalization                   |
 
-## Step 2: Apply for Business Permit
+---
 
-Go to **Lapu-Lapu City BPLO** (Business Permit and Licensing Office).
+## How to Apply
 
-**Requirements:**
+### Step 1: Register your business
 
-- Unified Application Form
-- SEC Certificate of Registration + Articles of Partnership
-- Occupancy Permit (if owner) OR Lease Contract (if renting)
-- Community Tax Certificate (CTC)
+Register with the agency that matches your type of business:
 
-Apply in person or online via [Lapu-Lapu Online Business Permit Portal](https://businesspermit.lapulapucity.gov.ph/).
+- **Single proprietorship** → Department of Trade and Industry (DTI). You can register your business name online through the [DTI Business Name Registration System](https://bnrs.dti.gov.ph/).
+- **Corporation** → Securities and Exchange Commission (SEC).
+- **Cooperative** → Cooperative Development Authority (CDA).
 
-> Note: Inspections may include zoning, sanitary, and fire safety checks.
+You'll also need a **Community Tax Certificate (CTC or _sedula_)** to go with your DTI or SEC registration.
 
-## Step 3: Register with BIR
+### Step 2: Get a Barangay Business Clearance
 
-File at the **BIR Revenue District Office (RDO)** where your office is located.
+- Go to the **barangay hall** of the barangay where your business will operate.
+- Apply for a **Barangay Business Clearance**. Ask the barangay for their specific requirements and fee.
 
-- Fill out [BIR Form 1903](https://www.bir.gov.ph/images/1903%20Jan%202024.pdf)
-- Submit SEC Certificate + Articles of Partnership + valid IDs
-- Pay registration fee + Documentary Stamp Tax (DST)
+### Step 3: Prepare your location documents
 
-**Within 30 days of receiving BIR Certificate:**
+Which documents you need depends on whether you rent or own the place:
 
-- Apply for Authority to Print Receipts (Form 1906) OR enroll in e-invoicing
-- Register your Books of Accounts
+- **Renting:** Contract of Lease and your **lessor's business permit** (ask your landlord for a copy).
+- **Owning:** Title of Ownership and Tax Declaration of the property.
+- **Occupancy Permit**, if required by law or the Building Code for your building.
+- **Photos of your business establishment.**
 
-## Step 4: Register as Employer (if hiring)
+### Step 4: Prepare a sworn statement of capitalization
 
-Enroll with:
+- Write a **sworn statement of your business capitalization** (how much capital you are starting with) and have it **notarized**.
 
-- [SSS](https://www.sss.gov.ph/)
-- [PhilHealth](https://www.philhealth.gov.ph/)
-- [Pag-IBIG](https://www.pagibigfund.gov.ph/)
+### Step 5: Submit to the BPLO
 
-## Process Flow
+- Bring the complete documents, plus **two (2) photocopies** of each, to the **BPLO**.
+- The BPLO will assess your application and the fees due. Follow their instructions for payment and releasing of your Mayor's Business Permit.
 
-1. SEC name check + register via [SEC eSPARC](https://espac.sec.gov.ph/)
-2. Secure Barangay Certification + site/lease documents
-3. Apply for Business Permit at [Lapu-Lapu BPLO](https://businesspermit.lapulapucity.gov.ph/)
-4. File BIR Form 1903 → apply ATP → register books
+---
 
-## Document Checklist
+## Requirements
 
-- [ ] SEC Articles of Partnership + SEC Certificate
-- [ ] Lease Contract OR Occupancy/Building docs
-- [ ] Lapu-Lapu BPLO Unified Application Form + CTC
-- [ ] BIR Form 1903, IDs, ATP/Books
+### Proof of registration (choose one)
 
-With these steps, your partnership in Lapu-Lapu City will be fully compliant and ready to operate!
+- [ ] **SEC Registration** with CTC/_sedula_ — for corporations
+- [ ] **DTI Registration** with CTC/_sedula_ — for single proprietorships
+- [ ] **CDA Accreditation** — for cooperatives
+
+### Other documents
+
+- [ ] **Business Capitalization** — notarized sworn statement
+- [ ] **Barangay Business Clearance** — from your barangay hall
+- [ ] **Contract of Lease** and **Lessor's Business Permit** — if renting
+- [ ] **Title of Ownership and Tax Declaration** — if you own the property
+- [ ] **Occupancy Permit** — if required by law or the Building Code
+- [ ] **Photos of the business establishment**
+- [ ] **Two (2) photocopies** of all documents
+
+---
+
+## After You Get Your Permit
+
+Your business permit must be **renewed every year**, and local business taxes can be paid quarterly. See [Renew permits and pay local business taxes](/services/business/renew-permits-and-pay-local-business-taxes) for the renewal requirements and payment deadlines.
+
+---
+
+## Contact Information
+
+- **Office**: Business Permit and Licensing Office (BPLO), Municipality of Bocaue, Bulacan
+- For office hours, fees, and processing time, ask at the BPLO.
